@@ -1,0 +1,18 @@
+customize_options:
+    title_tagline:
+        name: "<?php _e('Site Title & Tagline') ?>"
+        priority: 1
+        settings:
+            separator:
+                name: Separator
+                default: '|'
+                type: text
+                option_type: option # or theme_mod
+            position:
+                name: Position
+                default: right
+                type: radio
+                option_type: option # or theme_mod
+                choices:
+                    left: Left
+                    right: Right

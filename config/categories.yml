@@ -1,0 +1,5 @@
+# my-category:
+#   name: My Category
+#   description: ~
+#   taxonomy: category
+#   parent: my_parent_category

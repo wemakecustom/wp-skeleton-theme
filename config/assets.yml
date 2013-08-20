@@ -1,0 +1,148 @@
+# css:
+#   name:
+#       url: <?php echo $theme_uri ?>/css/name.css
+#       conditional: lte IE 8
+#       enqueue: 1
+#       admin: 0   # Only in non-admin pages, default
+#       # admin: 1 # Only in admin pages
+#       # admin: ~ # Always
+#       deps:
+#           - foobar
+#       media: screen
+# js:
+#   name:
+#       url: <?php echo $theme_uri ?>/js/name.js
+#       conditional: lte IE 8
+#       enqueue: 1
+#       admin: 0
+#       deps:
+#           - foobar
+#       footer: 1
+
+css:
+    fancybox:
+        url: //cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.1/jquery.fancybox.css
+
+    bootstrap:
+        url: //netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap.no-icons.min.css
+    bootstrap-responsive:
+        url: //netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-responsive.min.css
+        deps:
+            - bootstrap
+    # if including bootstrap and responsive, take this one
+    bootstrap-combined:
+        url: //netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.no-icons.min.css
+
+    # All bootstrap files are without icons, include the font version instead
+    bootstrap-font:
+        url: //netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css
+        deps:
+            - bootstrap-font-ie7
+    bootstrap-font-ie7:
+        url: //netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome-ie7.css
+        conditional: lte IE 7
+
+    jquery-ui-smoothness:
+        url: //cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.2/css/smoothness/jquery-ui-1.10.2.custom.min.css
+
+js:
+    jquery:
+        url: //ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js
+        enqueue: 1
+    jquery-ui:
+        url: //ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js
+        deps:
+            - jquery
+
+    html5shiv:
+        url: //cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js
+        enqueue: 1
+        conditional: lt IE 9
+    modernizr:
+        url: //cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js
+
+    fancybox:
+        url: //cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.1/jquery.fancybox.pack.js
+        deps:
+            - jquery
+
+    bootstrap:
+        url: //netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js
+        deps:
+            - jquery
+        footer: 1
+
+    # Bootstrap
+    # Only use to include specific lib, for the full package, use bootstrap from the CDN
+    bootstrap-affix:
+        url: <?php echo $theme_uri ?>/libs/bootstrap/js/bootstrap-affix.js
+        deps:
+            - jquery
+            - bootstrap-transition
+        footer: 1
+    bootstrap-alert:
+        url: <?php echo $theme_uri ?>/libs/bootstrap/js/bootstrap-alert.js
+        deps:
+            - jquery
+            - bootstrap-transition
+        footer: 1
+    bootstrap-button:
+        url: <?php echo $theme_uri ?>/libs/bootstrap/js/bootstrap-button.js
+        deps:
+            - jquery
+        footer: 1
+    bootstrap-carousel:
+        url: <?php echo $theme_uri ?>/libs/bootstrap/js/bootstrap-carousel.js
+        deps:
+            - jquery
+            - bootstrap-transition
+        footer: 1
+    bootstrap-collapse:
+        url: <?php echo $theme_uri ?>/libs/bootstrap/js/bootstrap-collapse.js
+        deps:
+            - jquery
+            - bootstrap-transition
+        footer: 1
+    bootstrap-dropdown:
+        url: <?php echo $theme_uri ?>/libs/bootstrap/js/bootstrap-dropdown.js
+        deps:
+            - jquery
+        footer: 1
+    bootstrap-modal:
+        url: <?php echo $theme_uri ?>/libs/bootstrap/js/bootstrap-modal.js
+        deps:
+            - jquery
+            - bootstrap-transition
+        footer: 1
+    bootstrap-popover:
+        url: <?php echo $theme_uri ?>/libs/bootstrap/js/bootstrap-popover.js
+        deps:
+            - jquery
+        footer: 1
+    bootstrap-scrollspy:
+        url: <?php echo $theme_uri ?>/libs/bootstrap/js/bootstrap-scrollspy.js
+        deps:
+            - jquery
+        footer: 1
+    bootstrap-tab:
+        url: <?php echo $theme_uri ?>/libs/bootstrap/js/bootstrap-tab.js
+        deps:
+            - jquery
+            - bootstrap-transition
+        footer: 1
+    bootstrap-tooltip:
+        url: <?php echo $theme_uri ?>/libs/bootstrap/js/bootstrap-tooltip.js
+        deps:
+            - jquery
+            - bootstrap-transition
+        footer: 1
+    bootstrap-transition:
+        url: <?php echo $theme_uri ?>/libs/bootstrap/js/bootstrap-transition.js
+        deps:
+            - jquery
+        footer: 1
+    bootstrap-typeahead:
+        url: <?php echo $theme_uri ?>/libs/bootstrap/js/bootstrap-typeahead.js
+        deps:
+            - jquery
+        footer: 1

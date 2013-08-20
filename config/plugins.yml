@@ -1,0 +1,21 @@
+# See https://github.com/thomasgriffin/TGM-Plugin-Activation
+
+# plugins:
+#     my-plugin:
+#         name: My Plugin                                     # The plugin name
+#         slug: my-plugin                                     # The plugin slug (typically the folder name), defaults to array id
+#         source: <?php echo ABSPATH ?>/source/my-plugin.zip  # The plugin zip file, either file or URL
+#         required: true                                      # If false, the plugin is only 'recommended' instead of required
+#         version: 1.0.0                                      # If set, the active plugin must be this version or higher, otherwise a notice is presented
+#         force_activation: true                              # Defaults to 'required'. If true, plugin is activated upon theme activation and cannot be deactivated until theme switch
+#         force_deactivation: false                           # If true, plugin is deactivated upon theme switch, useful for theme-specific plugins
+#         external_url: http://my-plugin.com/                 # If set, overrides default API URL and points to an external URL
+
+#     my-plugin: My Plugin  # short format, if name is omitted, it will be guessed
+
+plugins:
+    config-manager:
+    regenerate-thumbnails:
+    html-helpers:
+
+# configs:
