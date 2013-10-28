@@ -75,74 +75,74 @@ js:
     # Bootstrap
     # Only use to include specific lib, for the full package, use bootstrap from the CDN
     bootstrap-affix:
-        url: <?php echo $components_uri ?>/bootstrap/js/bootstrap-affix.js
+        url: <?php echo $components_uri ?>/bootstrap/js/affix.js
         deps:
             - jquery
             - bootstrap-transition
         footer: 1
     bootstrap-alert:
-        url: <?php echo $components_uri ?>/bootstrap/js/bootstrap-alert.js
+        url: <?php echo $components_uri ?>/bootstrap/js/alert.js
         deps:
             - jquery
             - bootstrap-transition
         footer: 1
     bootstrap-button:
-        url: <?php echo $components_uri ?>/bootstrap/js/bootstrap-button.js
+        url: <?php echo $components_uri ?>/bootstrap/js/button.js
         deps:
             - jquery
         footer: 1
     bootstrap-carousel:
-        url: <?php echo $components_uri ?>/bootstrap/js/bootstrap-carousel.js
+        url: <?php echo $components_uri ?>/bootstrap/js/carousel.js
         deps:
             - jquery
             - bootstrap-transition
         footer: 1
     bootstrap-collapse:
-        url: <?php echo $components_uri ?>/bootstrap/js/bootstrap-collapse.js
+        url: <?php echo $components_uri ?>/bootstrap/js/collapse.js
         deps:
             - jquery
             - bootstrap-transition
         footer: 1
     bootstrap-dropdown:
-        url: <?php echo $components_uri ?>/bootstrap/js/bootstrap-dropdown.js
+        url: <?php echo $components_uri ?>/bootstrap/js/dropdown.js
         deps:
             - jquery
         footer: 1
     bootstrap-modal:
-        url: <?php echo $components_uri ?>/bootstrap/js/bootstrap-modal.js
+        url: <?php echo $components_uri ?>/bootstrap/js/modal.js
         deps:
             - jquery
             - bootstrap-transition
         footer: 1
     bootstrap-popover:
-        url: <?php echo $components_uri ?>/bootstrap/js/bootstrap-popover.js
+        url: <?php echo $components_uri ?>/bootstrap/js/popover.js
         deps:
             - jquery
         footer: 1
     bootstrap-scrollspy:
-        url: <?php echo $components_uri ?>/bootstrap/js/bootstrap-scrollspy.js
+        url: <?php echo $components_uri ?>/bootstrap/js/scrollspy.js
         deps:
             - jquery
         footer: 1
     bootstrap-tab:
-        url: <?php echo $components_uri ?>/bootstrap/js/bootstrap-tab.js
+        url: <?php echo $components_uri ?>/bootstrap/js/tab.js
         deps:
             - jquery
             - bootstrap-transition
         footer: 1
     bootstrap-tooltip:
-        url: <?php echo $components_uri ?>/bootstrap/js/bootstrap-tooltip.js
+        url: <?php echo $components_uri ?>/bootstrap/js/tooltip.js
         deps:
             - jquery
             - bootstrap-transition
         footer: 1
     bootstrap-transition:
-        url: <?php echo $components_uri ?>/bootstrap/js/bootstrap-transition.js
+        url: <?php echo $components_uri ?>/bootstrap/js/transition.js
         deps:
             - jquery
         footer: 1
     bootstrap-typeahead:
-        url: <?php echo $components_uri ?>/bootstrap/js/bootstrap-typeahead.js
+        url: <?php echo $components_uri ?>/bootstrap/js/typeahead.js
         deps:
             - jquery
         footer: 1
