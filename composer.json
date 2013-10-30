@@ -13,6 +13,7 @@
     "require": {
         "wemakecustom/wp-config-manager": "*",
         "wemakecustom/wp-pot-generator": "*",
+        "wpackagist/html-helpers": "*",
         "wpackagist/regenerate-thumbnails": "*",
         "wpackagist/w3-total-cache": "*",
 
