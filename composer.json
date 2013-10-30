@@ -12,6 +12,10 @@
     ],
     "require": {
         "wemakecustom/wp-config-manager": "*",
+        "wemakecustom/wp-pot-generator": "*",
+        "wpackagist/regenerate-thumbnails": "*",
+        "wpackagist/w3-total-cache": "*",
+
         "composer/installers": "~1.0"
     },
     "extra": {
