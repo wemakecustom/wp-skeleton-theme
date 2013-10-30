@@ -14,7 +14,7 @@
 #     my-plugin: My Plugin  # short format, if name is omitted, it will be guessed
 
 plugins:
-    config-manager:
+    pot-generator:
     regenerate-thumbnails:
     html-helpers:
 
