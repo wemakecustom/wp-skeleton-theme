@@ -16,11 +16,11 @@ It includes minimal configuration for all the rest to work and some core templat
 
   1. Default page title
   2. Filters to easily add header metas (support for IE comments)
-    1. Default meta viewport
-    2. Robots directive
-    3. X-UA-Compatible
-    4. charset=utf-8
-    5. Removed generator tag (possible security implications)
+    * Default meta viewport
+    * Robots directive
+    * X-UA-Compatible
+    * charset=utf-8
+    * Removed generator tag (possible security implications)
   3. Layout selector
     * sidebar-left
     * sidebar-right
