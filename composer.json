@@ -11,6 +11,8 @@
         }
     ],
     "require": {
+        "wemakecustom/wp-mu-loader": "*",
+        "wemakecustom/wp-mu-composer": "*",
         "wemakecustom/wp-config-manager": "*",
         "wemakecustom/wp-pot-generator": "*",
         "wpackagist/html-helpers": "*",
