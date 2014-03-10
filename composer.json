@@ -15,9 +15,9 @@
         "wemakecustom/wp-mu-composer": "*",
         "wemakecustom/wp-config-manager": "*",
         "wemakecustom/wp-pot-generator": "*",
-        "wpackagist/html-helpers": "*",
-        "wpackagist/regenerate-thumbnails": "*",
-        "wpackagist/w3-total-cache": "*",
+        "wpackagist-plugin/html-helpers": "*",
+        "wpackagist-plugin/regenerate-thumbnails": "*",
+        "wpackagist-plugin/w3-total-cache": "*",
 
         "composer/installers": "~1.0"
     },
