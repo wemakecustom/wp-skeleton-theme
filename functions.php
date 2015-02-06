@@ -64,7 +64,7 @@ function wpskeleton_page_title()
 
     // Add a page number if necessary:
     if ( $paged >= 2 || $page >= 2 )
-        echo " $separator " . sprintf( __( 'Page %s', 'wpskeleton' ), max( $paged, $page ) );
+        $title .= " $separator " . sprintf( __( 'Page %s', 'wpskeleton' ), max( $paged, $page ) );
 
     $title = apply_filters('wpskeleton_page_title', $title);
     $title = esc_html($title);
